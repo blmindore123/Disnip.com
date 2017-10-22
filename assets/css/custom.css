@@ -1,0 +1,47 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+body {	
+}
+
+.icon-green {
+    color: #68b828;
+}
+
+.icon-red {
+    color: #ff0000;
+}
+
+.icon-blue {
+    color: #40bbea;
+}
+
+a {
+	
+	
+	
+}
+
+
+.validate-has-error{color:#F00;} 
+
+.close-message {
+  position:absolute;
+  right:10px;
+}
+
+.alert-success {
+  background-color:#8DC63F;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  border-color:#8DC63F;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  color:#FFFFFF;
+  margin-bottom:10px;
+  padding:10px;
+  position:relative;
+}

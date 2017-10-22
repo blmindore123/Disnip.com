@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+ 
+        <meta name="description" content="">
+ 
+        <meta name="keywords" content="">
+        <!-- meta character set -->
+        <meta charset="utf-8">
+
+        <!-- Site Title -->
+        <title>Login</title>
+        
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100|Poppins:300,400,700">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400,500">
+        <link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/style.minified.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../../../www.codepixar.com/matex/matex/css/style.html">
+        
+        <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <main id="main" class="site-content">
+            <section class="section-login-register parallax-bg half-bg" style="background-image: url('img/slider/login-bg-2.jpg');">
+                <span class="overlay" data-hover-color="#000" data-hover-opacity="0.75"></span>
+                <div class="container">
+                    <div class="row flex flex-middle fullscreen disable-fullscreen-xs disable-flex-xs relative">
+                        <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+                            <div class="page-login-wrapper flex-grow text-center">
+                                <a href="index.html" class="login-logo inline mb-60">
+                                    <!-- <img src="img/logo-alt.png" alt="" width="180"> -->
+                                    <h4 style="color: #fff;font-size: 30px;">Disnip</h4>
+                                </a>
+                                <!-- Nav tabs -->
+                                <ul class="masonry-filter tab style-3 light text-uppercase mb-70">
+                                    <li class="active"><a href="#tab-login" data-toggle="tab">Login</a></li>
+                                    <li><a href="#tab-register" data-toggle="tab">Register</a></li>
+                                </ul>
+                            
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <form action="#" method="post" id="tab-login" class="tab-pane matex-login text-center fade in active">
+                                        <div class="round-input light text-left mb-20">
+                                            <label for="user_name" class="block text-light fw300 fz-14 mb-10 ml-30">Username</label>
+                                            <span class="icon-input relative block">
+                                                <span class="icon fz-18 text-light"><i class="et-line icon-profile-male"></i></span>
+                                                <input class="text-light" type="text" name="user_name" id="user_name" placeholder="eg. Lorem Ipsum" autocomplete="off">
+                                            </span>
+                                        </div>
+                                        <div class="round-input light text-left mb-20">
+                                            <label for="password" class="block text-light fw300 fz-14 mb-10 ml-30">Password</label>
+                                            <span class="icon-input relative block">
+                                                <span class="icon fz-18 text-light"><i class="et-line icon-lock"></i></span>
+                                                <input class="text-light" type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                                            </span>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <span class="custom-checkbox light text-left inline mb-15">
+                                                <input type="checkbox" id="km_logged_in">
+                                                <label for="km_logged_in" class="fz12 fw300 text-white">Keep me logged in</label>
+                                            </span>
+                                        </div>
+
+                                        <button class="waves-effect btn-large btn-round text-uppercase w100">Login</button>
+                                        <p class="text-center mt-10"><a class="text-light fz-12" href="#">Forgot Password?</a></p>
+                                    </form>
+                                    <form action="#" method="post" id="tab-register" class="tab-pane matex-login text-center fade">
+                                        <div class="round-input light text-left mb-20">
+                                            <label for="user_name" class="block text-light fw300 fz-14 mb-10 ml-30">Username</label>
+                                            <span class="icon-input relative block">
+                                                <span class="icon fz-18 text-light"><i class="et-line icon-profile-male"></i></span>
+                                                <input class="text-light" type="text" name="user_name" id="user_name" placeholder="eg. Loremipsum" autocomplete="off">
+                                            </span>
+                                        </div>
+                                        <div class="round-input light text-left mb-20">
+                                            <label for="email" class="block text-light fw300 fz-14 mb-10 ml-30">Email Address</label>
+                                            <span class="icon-input relative block">
+                                                <span class="icon fz-18 text-light"><i class="et-line icon-lock"></i></span>
+                                                <input class="text-light" type="email" name="email" id="email" placeholder="eg. info@dumymail.com" autocomplete="off">
+                                            </span>
+                                        </div>
+                                        <div class="round-input light text-left mb-20">
+                                            <label for="password" class="block text-light fw300 fz-14 mb-10 ml-30">Password</label>
+                                            <span class="icon-input relative block">
+                                                <span class="icon fz-18 text-light"><i class="et-line icon-lock"></i></span>
+                                                <input class="text-light" type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                                            </span>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <span class="custom-checkbox light text-left inline">
+                                                <input type="checkbox" class="filled-in" id="check_tac">
+                                                <label for="check_tac" class="fz12 fw300 text-white">I agree to the Terms and Conditions</label>
+                                            </span>
+                                        </div>
+
+                                        <button class="waves-effect btn-large btn-round text-uppercase w100">Get Started</button>
+                                    </form>
+                                </div>
+                            </div> <!-- end. page-login-wrapper -->
+                        </div> <!-- end .col- -->
+                    </div> <!-- end .row -->
+                </div> <!-- end .container -->
+            </section>
+        </main> <!--  .site-content  -->
+
+        
+        <!--
+        JavaScripts
+        ========================== -->
+        <script src="js/scripts.minified.js"></script>
+        <script src="js/main.js"></script>    </body>
+
+<!-- Mirrored from codepixar.com/matex/matex/page-login-2.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jul 2017 13:06:33 GMT -->
+</html>

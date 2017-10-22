@@ -1,0 +1,27 @@
+<?php
+
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
+class Website extends CI_Controller {
+
+    function __construct() {
+        parent::__construct();
+        $this->load->helper(array('form', 'url'));
+        $this->load->model('login_model');
+        $this->load->library('form_validation');
+        $this->load->library('session');
+        $this->load->library('email');
+       
+    }
+
+    function index() {
+
+        $this->load->view('website/header');
+        $this->load->view('website/home');
+        $this->load->view('website/footer');
+    }
+
+//------------------------------------------------------------------------------------
+//----end class----//
+}
